@@ -1,6 +1,5 @@
 def paresImpares(numero):
-    if numero % 2 == 0:
-
+ 
 
 # Función para imprimir números pares e impares del 1 al 50
 def imprimir_pares_impares():
