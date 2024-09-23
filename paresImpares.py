@@ -18,7 +18,13 @@ def imprimir_pares_impares():
         else:
             # Si no es par, es impar, así que lo agregamos a la lista de impares
             numeros_impares.append(numero)
+    # Se pone Un print para que pueda inprimir los numeros imapres y pares y asi poder mostrar el resultado 
+    print("Números pares del 1 al 50:")
+    print(numeros_pares)
     
+    print("\nNúmeros impares del 1 al 50:")
+    print(numeros_impares)
+Amilkar, estas lineas donde van y editas el comentario
 
 # Llamar a la función para ejecutar el código
 imprimir_pares_impares()
