@@ -19,12 +19,6 @@ def imprimir_pares_impares():
             # Si no es par, es impar, así que lo agregamos a la lista de impares
             numeros_impares.append(numero)
     
-    # Imprimir los números pares e impares en la consola
-    print("Números pares del 1 al 50:")
-    print(numeros_pares)
-    
-    print("\nNúmeros impares del 1 al 50:")
-    print(numeros_impares)
 
 # Llamar a la función para ejecutar el código
 imprimir_pares_impares()
