@@ -27,23 +27,4 @@ def imprimir_pares_impares():
 
 # Llamar a la función para ejecutar el código
 imprimir_pares_impares()
-def paresImpares(numero):
-    # Si el número es divisible entre 2, es par
- 
 
-    # Bucle para recorrer los números del 1 al 50
-    for numero in range(1, 51):
-        # Verificar si el número es par o impar usando la función es_par
-        if paresImpares(numero):
-            # Si es par, agregarlo a la lista de pares
-            numeros_pares.append(numero)
-        else:
-            # Si no es par, es impar, así que lo agregamos a la lista de impares
-            numeros_impares.append(numero)
-    
-    # Imprimir los números pares e impares en la consola
-
-
-# Llamar a la función para ejecutar el código
-imprimir_pares_impares()
->>>>>>> 70a431532813eff8c97c4a98cd453e692c081b69
