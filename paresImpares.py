@@ -1,6 +1,10 @@
 def paresImpares(numero):
- 
-
+ #Aqui agrego las condicionales para verificar si un numero es par o impar
+if numero % 2 == 0:
+        return True
+    else:
+        return False
+     
 # Función para imprimir números pares e impares del 1 al 50
 def imprimir_pares_impares():
     # Crear listas vacías para guardar los números pares e impares
